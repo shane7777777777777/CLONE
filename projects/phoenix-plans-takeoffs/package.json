@@ -1,0 +1,28 @@
+{
+  "name": "phoenix-plans-takeoffs",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Isolated Phoenix Plans & Takeoffs prototype. Not part of the REA runtime.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "vitest run",
+    "generate:fixtures": "tsx scripts/generate-fixtures.ts",
+    "demo": "node scripts/demo.mjs"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "4.10.38"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "fake-indexeddb": "6.2.5",
+    "playwright": "1.58.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vite": "6.4.1",
+    "vitest": "3.2.4"
+  }
+}

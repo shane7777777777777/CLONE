@@ -1,0 +1,52 @@
+{
+  "note": "Coordinates are PDF user space, origin bottom-left. Tests must not read pixels.",
+  "page": {
+    "width": 612,
+    "height": 792,
+    "rotation": 0
+  },
+  "scale": {
+    "a": {
+      "x": 72,
+      "y": 360
+    },
+    "b": {
+      "x": 432,
+      "y": 360
+    },
+    "knownLength": 30,
+    "unit": "ft"
+  },
+  "distance": {
+    "a": {
+      "x": 72,
+      "y": 220
+    },
+    "b": {
+      "x": 192,
+      "y": 220
+    },
+    "feet": 10
+  },
+  "square": {
+    "a": {
+      "x": 300,
+      "y": 200
+    },
+    "b": {
+      "x": 444,
+      "y": 200
+    },
+    "c": {
+      "x": 444,
+      "y": 344
+    },
+    "d": {
+      "x": 300,
+      "y": 344
+    },
+    "sideFeet": 12,
+    "areaSqFt": 144,
+    "perimeterFeet": 48
+  }
+}
