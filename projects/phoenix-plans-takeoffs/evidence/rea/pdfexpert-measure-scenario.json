@@ -1,0 +1,22 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/usr/bin/google-chrome",
+    "headless": true
+  },
+  "start_url": {
+    "url": "https://support.readdle.com/pdfexpert/en_US/construction-tools/scale-and-measure-drawings"
+  },
+  "actions": [
+    {
+      "step_id": "wait-title",
+      "action": "wait_for",
+      "locator": { "kind": "css", "selector": "h1" },
+      "state": "visible",
+      "timeout_ms": 20000
+    }
+  ],
+  "capture": {
+    "at_end": ["url", "accessibility"]
+  }
+}
