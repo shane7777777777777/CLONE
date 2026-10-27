@@ -9,7 +9,7 @@ A small Phoenix Plans & Takeoffs companion: plan PDFs, annotation, explicit take
 - Remote starting revision: `d2a3269d0c1007e16a2f84d44cc0b1503debb2ae` (`main`, 2026-10-20).
 - Shane's local checkout at `/Users/shanewarehime/Developer/github/CLONE` was not inspected. Uncommitted work there is unknown.
 - Branch: `cursor/phoenix-plans-takeoffs-b9f4`.
-- The delivered commit is the tip of that branch. `handoff/02-revision.md` names the implementation commit.
+- Implementation commit: `263a9ae788ea3aef5c9ed07722ea2a4cef628f3f`. The following commit only records that hash.
 
 ## Decisions
 
